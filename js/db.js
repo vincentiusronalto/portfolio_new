@@ -2,7 +2,7 @@ const PORTFOLIO = [
     {
         title : 'Online Chat',
         description : 'Online chatting app with socket io, node js and postgresql. This Web App hosted on VPS with NGINX',
-        github : 'https://www.cwuit.com',
+        github : 'https://github.com/vincentiusronalto/cwuit5',
         link : 'https://www.cwuit.com',
         img : './img/portfolio/cwuit.png'
     },
