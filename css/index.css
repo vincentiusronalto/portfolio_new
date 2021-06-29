@@ -133,23 +133,23 @@ content{
 }
 
 #portfolio_content{
-  /* background: rgb(16,16,20); */
-  width: 80%;
+  
+  width: 400px;
   height: 80vh;
   overflow-y: auto;
   text-align: center;
   padding: 20px;
-  border-radius: 30px;
-  /* border: 1px solid gray; */
+  /* border-radius: 30px; */
+  border: 1px solid gray;
 }
 
 #portfolio_content::-webkit-scrollbar {
-    /* width: 1em; */
-    width: 10px;
+    
+    width: 3px;
 }
  
 #portfolio_content::-webkit-scrollbar-track {
-    /* -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); */
+    
 }
  
 #portfolio_content::-webkit-scrollbar-thumb {
@@ -159,7 +159,7 @@ content{
 
 .portfolio_single_wrapper{
    padding: 10px;
-   /* border: 1px solid white; */
+   
 }
 
 .portfolio_overlay{
@@ -177,22 +177,31 @@ content{
 }
 
 .portfolio_single_title{
-    margin-bottom: 10px;
+    
     font-size: 20px;
-    color: aqua;
+    color: black;
+    background:  white;
+    padding: 10px;
+    box-sizing: border-box;
+    width: 350px;
+    margin: 0 auto;
+    margin-bottom: 10px;
 }
 
 .portfolio_single_inside_content{
     display: flex;
     margin: 0 auto;
     justify-content: center;
+    flex-direction: column;
+    
 }
 
+
 .portfolio_single_img{
-    width: 300px;
+    width: 350px;
     height: 100%;
-    margin-right: 10px;
-    /* margin: 0 auto; */
+    /* margin-right: 10px; */
+    margin: 0 auto;
     border: 1px solid white;
 }
 
@@ -239,18 +248,19 @@ content{
 /* skill*/
 .portfolio_description_single{
     margin: 0 auto;
-    width: 300px;
+    width: 350px;
     /* margin-top: 10px; */
     margin-bottom: 10px;
     /* border: 1px solid white; */
     padding: 10px;
     box-sizing: border-box;
+    color: #70a1ff;
 }
 .portfolio_stack_list{
     display: flex;
     margin-top: 10px;
     justify-content: center;
-    width: 300px;
+    width: 350px;
     margin: 0 auto;
     padding: 10px;
     /* border: 1px solid white; */
@@ -270,16 +280,17 @@ content{
     margin-right: 10px;
     /* background: white; */
     /* color: black; */
-    /* border: 1px solid white; */
+    border: 1px solid white;
     border-radius: 5px;
     padding: 4px;
 }
 
 .github_btn{
-    border: 1px solid skyblue;
+    border: 1px solid #2d3436;
+    background: #2d3436;
     padding: 10px;
     display: block;
-    width: 300px;
+    width: 350px;
     margin: 10px auto;
     box-sizing: border-box;
     text-decoration: none;
@@ -288,10 +299,11 @@ content{
 }
 
 .view_btn{
-    border: 1px solid skyblue;
+    border: 1px solid #74b9ff;
+    background: #74b9ff;
     padding: 10px;
     display: block;
-    width: 300px;
+    width: 350px;
     margin: 10px auto;
     box-sizing: border-box;
     text-decoration: none;
@@ -344,4 +356,14 @@ content{
     .portfolio_single_img{
         margin: 0 auto;
     }
+    #portfolio_content{
+        width: 80%;
+    }
+  }
+
+  @media only screen and (max-width: 400px) {
+    #portfolio_content{
+        width: 80%;
+    }
+
   }
