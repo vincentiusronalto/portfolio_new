@@ -141,6 +141,7 @@ content{
   padding: 20px;
   /* border-radius: 30px; */
   border: 1px solid gray;
+  background: rgba(0,0,0,0.7);
 }
 
 #portfolio_content::-webkit-scrollbar {
@@ -179,8 +180,11 @@ content{
 .portfolio_single_title{
     
     font-size: 20px;
-    color: black;
-    background:  white;
+    /* color: black; */
+    color: white;
+    font-family: 'Raleway';
+    border-bottom: 1px solid salmon;
+    /* background:  rgba(255,255,255,0.7); */
     padding: 10px;
     box-sizing: border-box;
     width: 350px;
@@ -259,9 +263,10 @@ content{
 .portfolio_stack_list{
     display: flex;
     margin-top: 10px;
-    justify-content: center;
+    /* justify-content: center; */
     width: 350px;
     margin: 0 auto;
+    
     padding: 10px;
     /* border: 1px solid white; */
     box-sizing: border-box;
@@ -271,7 +276,7 @@ content{
 }
 .s_other{
     /* border: 1px solid white; */
-    border-radius: 10px;
+    /* border-radius: 10px; */
     font-size: 16px;
     
     /* padding: 10px; */
@@ -281,16 +286,21 @@ content{
     /* background: white; */
     /* color: black; */
     border: 1px solid white;
-    border-radius: 5px;
-    padding: 4px;
+    /* border-radius: 5px; */
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.portfolio_btn_action{
+    display: flex;
 }
 
 .github_btn{
-    border: 1px solid #2d3436;
-    background: #2d3436;
+    border: 1px solid #5758BB;
+    background: #5758BB;
     padding: 10px;
     display: block;
-    width: 350px;
+    width: 150px;
     margin: 10px auto;
     box-sizing: border-box;
     text-decoration: none;
@@ -299,11 +309,11 @@ content{
 }
 
 .view_btn{
-    border: 1px solid #74b9ff;
-    background: #74b9ff;
+    border: 1px solid #ED4C67;
+    background: #ED4C67;
     padding: 10px;
     display: block;
-    width: 350px;
+    width: 150px;
     margin: 10px auto;
     box-sizing: border-box;
     text-decoration: none;

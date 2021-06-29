@@ -104,8 +104,10 @@ const observerOptions = {
         
         </div>
         </div>
+        <div class="portfolio_btn_action">
         <a target="_blank" class="github_btn" href="${PORTFOLIO[i].github}">Github</a>
         <a target="_blank" class="view_btn" href="${PORTFOLIO[i].link}">View</a>
+        </div>
       </div>
       `
     }
