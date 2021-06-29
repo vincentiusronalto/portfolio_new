@@ -1,6 +1,6 @@
 const PORTFOLIO = [
     {
-        title : 'Employee Management',
+        title : 'Webcam and Mic Test',
         description : 'Test your webcam and mic',
         github : 'https://github.com/vincentiusronalto/webcam_mic_typescript',
         link : 'https://vr-webcam-mic-test.netlify.app/',
