@@ -1,7 +1,15 @@
 const PORTFOLIO = [
     {
         title : 'Employee Management',
-        description : 'Online chatting app with socket io, node js and postgresql. This Web App hosted on VPS with NGINX',
+        description : 'Test your webcam and mic',
+        github : 'https://github.com/vincentiusronalto/webcam_mic_typescript',
+        link : 'https://vr-webcam-mic-test.netlify.app/',
+        img : './img/portfolio/webcam_mic.png',
+        stacks: ['html','typescript','scss','webpack']
+    },
+    {
+        title : 'Employee Management',
+        description : 'List of Employee with CRUD system, plus search by keyword',
         github : 'https://github.com/vincentiusronalto/mceasy_employee',
         link : 'https://chewychat.com/',
         img : './img/portfolio/employee.png',
@@ -17,7 +25,7 @@ const PORTFOLIO = [
     },
     {   
         title : 'Money Manager',
-        description : 'Description',
+        description : 'Manage your expenses',
         github : 'https://github.com/vincentiusronalto/portfolio_money_manager',
         link : 'https://money-manager-8787.netlify.app',
         img : './img/portfolio/money_manager.png',
@@ -26,7 +34,7 @@ const PORTFOLIO = [
     
     {   
         title : 'Stories',
-        description : 'Description',
+        description : 'update your awesome stories/delete',
         github : 'https://github.com/vincentiusronalto/portfolio-stories-client',
         link : 'https://vrstories.netlify.app',
         img : './img/portfolio/stories.png',
@@ -34,7 +42,7 @@ const PORTFOLIO = [
     },
     {   
         title : 'Movie Library',
-        description : 'Description',
+        description : 'Check latest Movies or via title',
         github : 'https://github.com/vincentiusronalto/searchmovie',
         link : 'https://vrmovie.netlify.app/',
         img : './img/portfolio/movie.png',
@@ -42,7 +50,7 @@ const PORTFOLIO = [
     },
     {   
         title : 'Discord Bot',
-        description : 'Description',
+        description : 'Discord for a Onmyoji game server',
         github : 'https://replit.com/@vincentiusrdk/HayasakaOnmyoji',
         link : 'https://replit.com/@vincentiusrdk/HayasakaOnmyoji',
         img : './img/portfolio/discord.png',
@@ -50,7 +58,7 @@ const PORTFOLIO = [
     },
     {   
         title : 'Pizza Restaurant',
-        description : 'Description',
+        description : 'Nice Brochure website for restaurant',
         github : 'https://github.com/vincentiusronalto/pizza_italia',
         link : 'https://vrpizza.netlify.app/',
         img : './img/portfolio/pizza.png',
@@ -58,7 +66,7 @@ const PORTFOLIO = [
     },
     {   
         title : 'Random Quotes',
-        description : 'Description',
+        description : 'Play awesome quotes and music',
         github : 'https://github.com/vincentiusronalto/random_quote',
         link : 'https://vrrandomquotes.netlify.app/',
         img : './img/portfolio/quote.png',
@@ -66,7 +74,7 @@ const PORTFOLIO = [
     },
     {   
         title : 'Password Generator',
-        description : 'Description',
+        description : 'Create Password from random string/number/symbols',
         github : 'https://github.com/vincentiusronalto/pass_generator',
         link : 'https://vrpassgenerator.netlify.app/',
         img : './img/portfolio/password.png',
@@ -74,7 +82,7 @@ const PORTFOLIO = [
     },
     {   
         title : 'Christmas Countdown',
-        description : 'Description',
+        description : 'Countdown before christmas',
         github : 'https://github.com/vincentiusronalto/chrismast-countdown',
         link : 'https://vrchristmascountdown.netlify.app/',
         img : './img/portfolio/christmas.png',
@@ -82,7 +90,7 @@ const PORTFOLIO = [
     },
     {   
         title : 'Ball Game',
-        description : 'Description',
+        description : 'Destroy all the blocks to win the game',
         github : 'https://github.com/vincentiusronalto/bolapantulcanvas_html5',
         link : 'https://vrballgame.netlify.app/',
         img : './img/portfolio/bounceball.png',
