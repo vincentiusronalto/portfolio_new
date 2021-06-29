@@ -19,13 +19,15 @@ function selectElementByClass(className) {
 
   const sections = [
     selectElementByClass('content_about_me'),
+    selectElementByClass('content_skill'),
     selectElementByClass('content_portfolio'),
-    selectElementByClass('content_contact')
+    selectElementByClass('content_contact'),
   ];
   
   
   const navItems = {
     content_about_me: selectElementByClass('nav_about_me'),
+    content_skill: selectElementByClass('nav_skill'),
     content_portfolio: selectElementByClass('nav_portfolio'),
     content_contact: selectElementByClass('nav_contact')
   };
@@ -78,22 +80,32 @@ const observerOptions = {
         img : './images/money_manager.png'
     },
   */
+//    <img class="portfolio_single" src="${PORTFOLIO[i].img}">
     let build = '';
     for(let i=0 ; i < PORTFOLIO.length; i++){
       build += `
       <div class="portfolio_single_wrapper">
-        <img class="portfolio_single" src="${PORTFOLIO[i].img}">
-        <div class="portfolio_overlay">
-          <div>
-          <div>
-          ${PORTFOLIO[i].title}
-          </div>
-          <div class="btn_small_wrapper">
-            <a target="_blank" href="${PORTFOLIO[i].github}" class="btn_small">Github</a>
-            <a target="_blank" href="${PORTFOLIO[i].link}" class="btn_small">Link</a>
-          </div>
-          </div>
+        <div class="portfolio_single_title">${PORTFOLIO[i].title}</div>
+        <div class="portfolio_single_inside_content">
+        <img src="${PORTFOLIO[i].img}" class="portfolio_single_img">
+        <div>
+        <div class="portfolio_description_single">${PORTFOLIO[i].description}</div>
+        
+        <div class="portfolio_stack_list">`;
+        
+        for(let j=0; j<PORTFOLIO[i].stacks.length; j++){
+          build += `<div class="s_other" > ${PORTFOLIO[i].stacks[j]}</div>`
+        }
+
+        // build += `<span class="s_other s_${PORTFOLIO[i].stacks[j]}" > ${PORTFOLIO[i].stacks[j]}</span>`
+      build +=
+        `</div>
+        
+        
         </div>
+        </div>
+        <a target="_blank" class="github_btn" href="${PORTFOLIO[i].github}">Github</a>
+        <a target="_blank" class="view_btn" href="${PORTFOLIO[i].link}">View</a>
       </div>
       `
     }
